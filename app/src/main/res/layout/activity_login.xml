@@ -8,7 +8,7 @@
 
     <EditText
         android:id="@+id/txtLoginEmail"
-        android:layout_width="365dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -23,18 +23,15 @@
         android:inputType="textPersonName"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnLoginRegister"
-        android:layout_width="365dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:background="@drawable/roundedbtn"
         android:drawableRight="@color/black"
         android:text="Login"
@@ -62,11 +59,7 @@
         android:id="@+id/txtLoginPw"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:background="@drawable/roundededit_text"
         android:drawableRight="@color/black"
         android:ems="10"

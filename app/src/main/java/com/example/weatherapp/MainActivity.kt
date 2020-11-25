@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             .addOnFailureListener {
-                Log.d("MAinActivity", "Error in Upload Image Path")
+                Log.d("MainActivity", "Error in Upload Image Path")
             }
     }
 
